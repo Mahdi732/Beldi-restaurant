@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 111px;
+    height: auto;
+}
+
+nav {
+    margin-right: 150px;
+    width: 73%;
+    padding: 26px;
+    
+    padding-right: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.active {
+    color: #E9BD8C;
+}
+
+section {
+    position: relative;
+    top: 45%;
+    left: 4%;
+    margin: 192px 57px;
+    padding: 13px;
+}
+
+section span {
+    color: #E9BD8C;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+section h2 {
+    color: #fff;
+    text-transform: capitalize;
+    width: 300px;
+    font-size: 53px;
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 500;
+}
+
+section button {
+    background-color: #933C24;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 176px;
+    margin: 15px 0;
+}
+
+section a {
+    color: #E9BD8C;
+    text-transform: capitalize;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+footer {
+    background-image: url("../img/footerBackground.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    min-height: 200px;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+footer nav ul img {
+    width: 40px; 
+    height: 40px;
+}
+
+.follow li {
+    color: #E9BD8C;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #E9BD8C;
+    width: 100%;
+}
