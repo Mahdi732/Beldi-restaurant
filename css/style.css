@@ -2,6 +2,7 @@
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
+    
 }
 
 .home {
@@ -354,4 +355,80 @@ hr{
     padding-top: 18px;
     padding-bottom: 150px;
   }
- 
+ .contact{
+    background-color: #D9D9D9;
+    padding-bottom: 250px;
+ }
+
+  .title-3{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding-top: 300px;
+  }
+  .p{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+  }
+
+.cont-title{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0px 200px
+}
+
+.p1{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0px 200px
+}
+form {
+    background-color: #ffffff;
+    margin: 0px 200px;
+    padding: 10px;
+}
+form input{
+    display: block;
+    width: 66%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #747474;
+    background-color: #ffffff;
+    color: #333;
+    margin: 20px 200px
+    
+}
+form textarea{
+    display: block;
+    width: 66%;
+    margin-bottom: 10px;
+    padding: 40px;
+    border: 1px solid #747474;
+    background-color: #ffffff;
+    color: #333;
+    margin: 20px 200px;
+    padding: 10px 10px 100px 20px;
+    
+}
+
+form button{
+    display: flex;
+    margin: 0px 45%;
+    background-color: #4387F2;
+    color: #ffffff;
+    padding: 20px 40px;
+    outline: none;
+    font-size: 24px;
+    border: 0px;
+}
